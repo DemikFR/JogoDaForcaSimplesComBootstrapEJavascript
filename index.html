@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/forca.css" media="screen">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="imagem">
+
+        </div>
+        <div id="palavra-secreta">
+        </div>
+        <div id="teclado">
+            <div class="teclas">
+                <button id="tecla-A" onclick="vericaLetraEscolhida('A')">A</button>
+                <button id="tecla-B" onclick="vericaLetraEscolhida('B')">B</button>
+                <button id="tecla-C" onclick="vericaLetraEscolhida('C')">C</button>
+                <button id="tecla-D" onclick="vericaLetraEscolhida('D')">D</button>
+                <button id="tecla-E" onclick="vericaLetraEscolhida('E')">E</button>
+                <button id="tecla-F" onclick="vericaLetraEscolhida('F')">F</button>
+                <button id="tecla-G" onclick="vericaLetraEscolhida('G')">G</button>
+                <button id="tecla-H" onclick="vericaLetraEscolhida('H')">H</button>
+                <button id="tecla-I" onclick="vericaLetraEscolhida('I')">I</button>
+            </div>
+            <div class="teclas">
+                <button id="tecla-J" onclick="vericaLetraEscolhida('J')">J</button>
+                <button id="tecla-K" onclick="vericaLetraEscolhida('K')">K</button>
+                <button id="tecla-L" onclick="vericaLetraEscolhida('L')">L</button>
+                <button id="tecla-M" onclick="vericaLetraEscolhida('M')">M</button>
+                <button id="tecla-N" onclick="vericaLetraEscolhida('N')">N</button>
+                <button id="tecla-O" onclick="vericaLetraEscolhida('O')">O</button>
+                <button id="tecla-P" onclick="vericaLetraEscolhida('P')">P</button>
+                <button id="tecla-Q" onclick="vericaLetraEscolhida('Q')">Q</button>
+                <button id="tecla-R" onclick="vericaLetraEscolhida('R')">R</button>
+            </div>
+            <div class="teclas">
+                <button id="tecla-S" onclick="vericaLetraEscolhida('S')">S</button>
+                <button id="tecla-T" onclick="vericaLetraEscolhida('T')">T</button>
+                <button id="tecla-U" onclick="vericaLetraEscolhida('U')">U</button>
+                <button id="tecla-V" onclick="vericaLetraEscolhida('V')">V</button>
+                <button id="tecla-W" onclick="vericaLetraEscolhida('W')">W</button>
+                <button id="tecla-X" onclick="vericaLetraEscolhida('X')">X</button>
+                <button id="tecla-Y" onclick="vericaLetraEscolhida('Y')">Y</button>
+                <button id="tecla-Z" onclick="vericaLetraEscolhida('Z')">Z</button>
+                <button id="btnTecladoReiniciar">#</button>
+            </div>
+        </div>
+        <div id="categoria">
+            
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="myModalMessage">
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnModalReiniciar" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/forca.js"></script>
+</body>
+</html>
